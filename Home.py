@@ -21,4 +21,4 @@ st.sidebar.title("Margot Langlais")
 st.sidebar.video("https://www.youtube.com/watch?v=p0irVKBrUZU")
 
 # Select bare
-st.selectbox("Selectionnez votre niveau d'étude", [])
+st.selectbox("Selectionnez votre niveau d'étude", ["Bac", "Bac +2", "Bac +5"])
