@@ -18,4 +18,4 @@ st.image("https://tse3.mm.bing.net/th?id=OIP.Fzx8LSN_XuDpC_-Hw1mu6QHaKa&pid=Api"
 st.sidebar.title("Margot Langlais")
 
 # Vidéo dans la sidebar
-st.sadebar.video("https://www.youtube.com/watch?v=p0irVKBrUZU")
+st.sidebar.video("https://www.youtube.com/watch?v=p0irVKBrUZU")
