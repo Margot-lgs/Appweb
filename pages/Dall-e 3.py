@@ -1,13 +1,6 @@
-from openia import OpenAI
+# from openia import OpenAI
 
 import streamlit as st
-
-st.set_page_config(
-  page_title="Home - générateur d'image",
-  initial_sidebar_state="expanded",
-  layout="wide",
-)
-
 
 st.title("Dall-e 3")
 st.write("Ceci est un exercice")
