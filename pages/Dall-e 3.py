@@ -7,7 +7,9 @@ st.write("Ceci est un exercice")
 user_input = st.text_input ("Tapez votre texte : ")
 st.write(user_input)
 
+
 client = OpenAI(api_key=OpenAIKEY)
+
 prompt = "une petite loutre entourée de coquillage"
 
 image = client.images.generate(
