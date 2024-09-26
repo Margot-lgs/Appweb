@@ -1,4 +1,4 @@
-from openia import OpenAI
+#from openia import OpenAI
 
 import streamlit as st
 
