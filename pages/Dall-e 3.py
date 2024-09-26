@@ -1,5 +1,7 @@
-import streamlit as st
 from openia import OpenAI
+
+import streamlit as st
+
 
 st.title("Dall-e 3")
 
