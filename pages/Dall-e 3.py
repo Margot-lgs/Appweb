@@ -7,7 +7,9 @@ st.write("Ceci est un exercice")
 user_input = st.text_input ("Tapez votre texte : ")
 st.write(user_input)
 
-st.sidebar.write("Veuillez entre la clé Open AI")
+st.sidebar.write("Veuillez entrer la clé Open AI")
+user_input = st.sidebar.text_input ("Clé Open AI: ")
+st.write(user_input)
 
 client = OpenAI(api_key=OpenAIKEY)
 
