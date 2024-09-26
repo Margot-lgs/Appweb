@@ -13,7 +13,7 @@ client = OpenAI(
   api_key= key_input,
 )
 
-user_input = st.text_input("Tapez votre texte : ")
+user_input = st.text_input("Tapez votre texte :")
 
 if user_input != "" :
   prompt = user_input
