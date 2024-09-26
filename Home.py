@@ -19,3 +19,6 @@ st.sidebar.title("Margot Langlais")
 
 # Vidéo dans la sidebar
 st.sidebar.video("https://www.youtube.com/watch?v=p0irVKBrUZU")
+
+# Select bare
+st.selectbox("Selectionnez votre niveau d'étude", [])
