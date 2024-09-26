@@ -4,19 +4,16 @@ import streamlit as st
 
 
 st.title("Dall-e 3")
-
 st.write("Ceci est un exercice")
-
-
 
 st.sidebar.write("Veuillez entrer la clé Open AI")
 key_input = st.sidebar.text_input ("Clé Open AI: ")
-st.write(key_input)
 
-client = OpenAI(api_key= key_input,
-               )
+client = OpenAI(
+  api_key= key_input,
+)
 
-user_input = st.text_input ("Tapez votre texte : ")
+user_input = st.text_input("Tapez votre texte : ")
 
 if user_input != "" :
   prompt = user_input
