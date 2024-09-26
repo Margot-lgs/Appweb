@@ -7,6 +7,7 @@ st.write("Ceci est un exercice")
 user_input = st.text_input ("Tapez votre texte : ")
 st.write(user_input)
 
+st.sidebar.write("Veuillez entre la clé Open AI")
 
 client = OpenAI(api_key=OpenAIKEY)
 
@@ -22,3 +23,5 @@ image = client.images.generate(
 
 image_url = image.data[0].url
 print(image_url)
+
+st.image(
