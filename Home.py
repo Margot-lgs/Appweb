@@ -21,4 +21,7 @@ st.sidebar.title("Margot Langlais")
 st.sidebar.video("https://www.youtube.com/watch?v=p0irVKBrUZU")
 
 # Select bare
-st.selectbox("Selectionnez votre niveau d'étude", ["Bac", "Bac +2", "Bac +5"])
+student_grad = st.selectbox("Selectionnez votre niveau d'étude", ["Bac", "Bac +2", "Bac +5"])
+
+# Select slider
+age = st.select_slide("Quel est votre âge", "range(0,99))
