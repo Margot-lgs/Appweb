@@ -1,3 +1,3 @@
-import streamit as st
+import streamlit as st
 
 st.title("Dall-e 3")
